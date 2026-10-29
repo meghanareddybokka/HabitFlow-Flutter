@@ -123,3 +123,20 @@ flutter test
 ```
 
 Tip: tap **Try demo habits** (or Settings → Load demo habits) to see the app with six weeks of history.
+
+## 🧰 Tech stack
+
+- **Flutter 3.47.8** (Material 3) and **Dart 3.13.7**
+- **shared_preferences** for local storage
+- **flutter_test** for unit and widget tests, **flutter_lints** for static analysis
+- **GitHub Actions** CI: format check → analyze → test → web build
+
+## 👤 Author
+
+**Bokka Meghana Reddy** – Roll No. 24AG1A0509
+B.Tech Computer Science and Engineering, ACE Engineering College, Hyderabad
+Project guide: **Mr. P. Satish Bhasker**
+
+## 📄 License
+
+This project is licensed under the MIT License – see [LICENSE](LICENSE).
