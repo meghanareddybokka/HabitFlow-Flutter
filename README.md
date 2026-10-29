@@ -103,3 +103,23 @@ lib/
 test/                         # 16 unit + widget tests
 docs/                         # screenshots, architecture diagram, terminal output
 ```
+
+## 🚀 Getting started
+
+**Requirements:** Flutter 3.x (stable) · Dart 3.x · Chrome, an Android emulator or a phone
+
+```bash
+git clone https://github.com/meghanareddybokka/HabitFlow-Flutter.git
+cd HabitFlow-Flutter
+flutter pub get
+flutter run            # pick Chrome, Android or iOS
+```
+
+Run the checks:
+
+```bash
+flutter analyze
+flutter test
+```
+
+Tip: tap **Try demo habits** (or Settings → Load demo habits) to see the app with six weeks of history.
