@@ -23,3 +23,11 @@ and watch your progress in a calendar heatmap and weekly chart. All data stays o
 | 📊 Statistics | Last-7-days bar chart (CustomPainter) and a streak leaderboard |
 | ⚙️ Settings | Dark mode, demo habits, reset all data |
 | 💾 Offline storage | Habits and history saved with `shared_preferences` |
+
+## 🏗️ Architecture
+
+<img src="docs/architecture.png" width="800">
+
+1. **UI layer** – screens (`lib/screens`) built from small widgets (`lib/widgets`), including a CustomPainter progress ring and bar chart.
+2. **Logic layer** – `HabitController` (`ChangeNotifier`) toggles days, calculates streaks, rates and weekly totals; the UI rebuilds with `ListenableBuilder`.
+3. **Data layer** – the `Habit` model stores completed days as `yyyy-MM-dd` keys and `HabitStorage` saves everything with `shared_preferences`.
