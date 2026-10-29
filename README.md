@@ -24,6 +24,22 @@ and watch your progress in a calendar heatmap and weekly chart. All data stays o
 | ⚙️ Settings | Dark mode, demo habits, reset all data |
 | 💾 Offline storage | Habits and history saved with `shared_preferences` |
 
+## 📱 Screenshots (live execution)
+
+Captured from the running app (`flutter run -d web-server`, phone-size window 412 × 892).
+
+| Empty state | Today (demo data) | Ticking habits | Statistics |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/01_empty.png" width="200"> | <img src="docs/screenshots/02_today.png" width="200"> | <img src="docs/screenshots/03_ticked.png" width="200"> | <img src="docs/screenshots/04_stats.png" width="200"> |
+
+| Habit details & heatmap | New habit | Validation | Habit created |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/05_detail.png" width="200"> | <img src="docs/screenshots/06_new_habit.png" width="200"> | <img src="docs/screenshots/08_validation.png" width="200"> | <img src="docs/screenshots/09_created.png" width="200"> |
+
+| Settings | Dark mode | Reset dialog |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/07_settings.png" width="200"> | <img src="docs/screenshots/10_dark_mode.png" width="200"> | <img src="docs/screenshots/11_reset_dialog.png" width="200"> |
+
 ## 🏗️ Architecture
 
 <img src="docs/architecture.png" width="800">
