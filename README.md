@@ -85,3 +85,21 @@ $ flutter test --reporter expanded
 1. **UI layer** – screens (`lib/screens`) built from small widgets (`lib/widgets`), including a CustomPainter progress ring and bar chart.
 2. **Logic layer** – `HabitController` (`ChangeNotifier`) toggles days, calculates streaks, rates and weekly totals; the UI rebuilds with `ListenableBuilder`.
 3. **Data layer** – the `Habit` model stores completed days as `yyyy-MM-dd` keys and `HabitStorage` saves everything with `shared_preferences`.
+
+## 📁 Project structure
+
+```text
+lib/
+├── main.dart                 # restores saved habits, starts the app
+├── app.dart                  # MaterialApp + light/dark theme
+├── models/                   # Habit, HabitCategory, HabitStyle (icons & colours)
+├── services/habit_storage.dart
+├── state/habit_controller.dart
+├── data/demo_habits.dart     # six demo habits with 6 weeks of history
+├── theme/                    # colours + Material 3 themes
+├── utils/                    # day keys, greeting, validators
+├── widgets/                  # progress ring, habit card, heatmap, weekly chart …
+└── screens/                  # home shell, today, details, new habit, stats, settings
+test/                         # 16 unit + widget tests
+docs/                         # screenshots, architecture diagram, terminal output
+```
