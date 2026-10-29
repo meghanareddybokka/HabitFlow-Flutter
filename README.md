@@ -40,6 +40,44 @@ Captured from the running app (`flutter run -d web-server`, phone-size window 41
 |:---:|:---:|:---:|
 | <img src="docs/screenshots/07_settings.png" width="200"> | <img src="docs/screenshots/10_dark_mode.png" width="200"> | <img src="docs/screenshots/11_reset_dialog.png" width="200"> |
 
+## 🖥️ Output
+
+### Running the app
+```text
+$ flutter run -d web-server --web-port 8089 --release
+Launching lib/main.dart on Web Server in release mode...
+Compiling lib/main.dart for the Web...                             12.3s
+✓ Built build/web
+lib/main.dart is being served at http://127.0.0.1:8089
+```
+<img src="docs/terminal_run.png" width="700">
+
+### Analyzer and tests
+```text
+$ flutter analyze
+No issues found!
+
+$ flutter test --reporter expanded
+00:00 +0: test/habit_model_test.dart: current streak counts back from today
+00:00 +1: test/habit_model_test.dart: current streak still counts when today is not ticked yet
+00:00 +2: test/habit_model_test.dart: best streak finds the longest run
+00:00 +3: test/habit_model_test.dart: toggled adds and removes today
+00:00 +4: test/habit_model_test.dart: completion rate since creation
+00:00 +5: test/habit_model_test.dart: JSON round trip keeps every field
+00:00 +6: test/utils_test.dart: day keys are zero padded and reversible
+00:00 +7: test/utils_test.dart: lastDays returns oldest first and ends today
+00:00 +8: test/utils_test.dart: greeting depends on the time of day
+00:00 +9: test/utils_test.dart: habit name validation
+00:01 +10: test/widget_test.dart: user creates a habit and ticks it off
+00:02 +11: test/widget_test.dart: empty name shows a validation message
+00:02 +12: test/controller_test.dart: add, toggle and delete habits
+00:02 +13: test/controller_test.dart: weekly completions cover the last seven days
+00:02 +14: test/controller_test.dart: habits are saved and loaded again
+00:02 +15: test/controller_test.dart: demo data ranks habits by streak
+00:02 +16: All tests passed!
+```
+<img src="docs/terminal_test.png" width="700">
+
 ## 🏗️ Architecture
 
 <img src="docs/architecture.png" width="800">
