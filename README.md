@@ -1,17 +1,13 @@
-# habit_flow
+# 🌱 HabitFlow – Daily Habit Tracker (Flutter)
 
-HabitFlow - a simple daily habit tracker built with Flutter
+![Flutter](https://img.shields.io/badge/Flutter-3.47-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.13-0175C2?logo=dart)
+![Tests](https://img.shields.io/badge/tests-16%20passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## Getting Started
+**HabitFlow** is a simple mobile app that helps students build good daily habits – drinking water,
+studying, exercising, sleeping on time. Tick a habit off with one tap, keep your streak alive,
+and watch your progress in a calendar heatmap and weekly chart. All data stays on the device.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> One-week technical project · **Bokka Meghana Reddy (24AG1A0509)** · Department of CSE, ACE Engineering College
+> · Project guide: **Mr. P. Satish Bhasker** · 15/10/2026 – 21/10/2026
